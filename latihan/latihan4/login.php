@@ -1,6 +1,6 @@
 <?php
 
-include_once 'index.php';
+include_once 'dashboard.php';
 session_start();
 
 // Mendefinisikan username dan password yang benar
@@ -19,9 +19,7 @@ if ($input_username == $correct_username && $input_password == $correct_password
     // Redirect ke halaman dashboard
     header("Location: dashboard.php");
     exit;
-} else {
-    // Jika login gagal, redirect kembali ke halaman login
-    header("Location: index.php");
-    exit;
+
 }
+
 ?>

@@ -55,7 +55,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST")
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="Password" nama='passwor'>
+          <input type="password" class="form-control" placeholder="Password" nama='password'>
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
@@ -86,7 +86,6 @@ if($_SERVER["REQUEST_METHOD"] === "POST")
     <!-- /.login-card-body -->
   </div>
 </div>
-<!-- /.login-box -->
 
 <!-- jQuery -->
 <script src="plugins/jquery/jquery.min.js"></script>
